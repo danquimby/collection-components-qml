@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/components/images/image-blue.png</file>
+        <file>qml/components/images/image-gray.png</file>
+        <file>qml/components/images/image-green.png</file>
+        <file>qml/components/images/image-purple.png</file>
+        <file>qml/components/images/image-red.png</file>
+    </qresource>
+</RCC>
