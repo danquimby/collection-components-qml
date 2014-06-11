@@ -47,6 +47,7 @@ BorderImage {
         id: shade
         anchors.fill: button; radius: 10; color: "black"; opacity: 0
     }
+
     Rectangle {
         id: normal
         anchors.fill: button; radius: 10; color: "transparent"; opacity: 0

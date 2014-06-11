@@ -9,6 +9,7 @@ RESOURCES += \
 
 OTHER_FILES += \
     qml/components/Button.qml \
-    qml/test-components.qml
+    qml/test-components.qml \
+    qml/components/TextInput.qml
 
 

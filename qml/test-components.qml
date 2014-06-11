@@ -8,6 +8,15 @@ BorderImage {
     border.left: 5; border.top: 5
     border.right: 5; border.bottom: 5
 
+    TextInput {
+        x:10; y:20; width: 200; height: 50
+        fontSize: 20
+
+        onPressedReturn: {
+            console.log("press" + stringInput)
+        }
+    }
+/*
     Button {
         x:10; y:20; width: 100; height: 50
         fontSize: 20
@@ -16,4 +25,5 @@ BorderImage {
             console.log("press")
         }
     }
+        */
 }
