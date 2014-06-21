@@ -8,6 +8,7 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
     QQuickView view;
     view.setSource (QUrl("qml/test-components.qml"));
+    view.setFlags(Qt::FramelessWindowHint);
     view.show ();
 
     return app.exec();
